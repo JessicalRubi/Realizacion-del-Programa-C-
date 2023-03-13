@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<title> PORTALES DINAMICOS <titulo>
+</head>
+<body>
+
+<h1>Realizacion de un programa C++
+<h3>
+<p>Para crear un programa en C++ seleccionar rchivo>Nuevo>Proyecto.
+<li>Para empezar a realizar el programa se debe escribir #include "stdio.h"
+<li>En segundo paso se debe declarar el dato u sustituir las palabras antisonantes, en este caso pondremos:<div>
+leer_caracter
+<div>leer_numero_entero
+<li>Como tercer paso empezaremos a definir el programa y empezaremmos a indicar al usuario que escriba su nombre de la siguiente manera:<div>
+printf("escribe tu nombve");
+<li>Despues leeremos lo escrito para saber si es un caracter o numero de la siguiente maner:
+<div>scanf("%s",&usuario");
+<li>Despues se definira para comprobar si esta correcto el ingreso de datos del programa, utilizando:<div>
+{<div>
+if(usuario=="152912"); <div>
+printf("Intenta de nuevo");<div>
+}<div>
+<li>Si se desea dar solo 3 oportunidades de equivocacion colocar:<div>
+while(s!=1 && s!=3);
+<li>Si al escribir los careacteres decidimos que este bien, entonces colocar:<div>
+else<div>
+if(usuario=="Chris");<div>
+{<div>
+printf("Bienvenide");<div>
+}
+
+
+</body>
+</html >
